@@ -1,0 +1,21 @@
+{
+  "name": "photo-montage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Build a printable photo montage of a list of species from openly licensed iNaturalist photos.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "vue": "^3.5.30"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.4",
+    "vite": "^7.3.2"
+  }
+}

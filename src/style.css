@@ -1,0 +1,51 @@
+/* Bootstrap theme overrides: Zoziologie teal as primary */
+:root {
+  --bs-primary: #386d70;
+  --bs-primary-rgb: 56, 109, 112;
+  --bs-link-color: #386d70;
+  --bs-link-color-rgb: 56, 109, 112;
+  --bs-link-hover-color: #2d5a5c;
+  --bs-link-hover-color-rgb: 45, 90, 92;
+  --primary-soft: #cfe0dd;
+}
+
+.btn-primary {
+  --bs-btn-bg: #386d70;
+  --bs-btn-border-color: #386d70;
+  --bs-btn-hover-bg: #2d5a5c;
+  --bs-btn-hover-border-color: #2d5a5c;
+  --bs-btn-active-bg: #264c4e;
+  --bs-btn-active-border-color: #264c4e;
+  --bs-btn-disabled-bg: #386d70;
+  --bs-btn-disabled-border-color: #386d70;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+  border-color: #386d70;
+  box-shadow: 0 0 0 0.2rem rgba(56, 109, 112, 0.2);
+}
+.form-check-input:checked {
+  background-color: #386d70;
+  border-color: #386d70;
+}
+
+.app-main {
+  max-width: 1700px;
+}
+
+.step {
+  display: inline-grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--bs-primary);
+  color: #fff;
+  font-size: 12px;
+}
+
+.num {
+  width: 80px;
+}
